@@ -1,0 +1,345 @@
+{
+  "address": "0xC23Fc24C55DB916AE0D6E3f533E89f67462D64b2",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract IMintableBurnableV2",
+          "name": "_token",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnableInvalidOwner",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "OwnableUnauthorizedAccount",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "burn",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "mint",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "operators",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_operator",
+          "type": "address"
+        }
+      ],
+      "name": "removeOperator",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_operator",
+          "type": "address"
+        }
+      ],
+      "name": "setOperator",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "token",
+      "outputs": [
+        {
+          "internalType": "contract IMintableBurnableV2",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x0d72316228cf8279d37f7c98d7de0ff91986dc667a8580fc71069f823175f122",
+  "receipt": {
+    "to": null,
+    "from": "0xF9f0A86FEa7f5698e4fA03A8506878c24F8700Af",
+    "contractAddress": "0xC23Fc24C55DB916AE0D6E3f533E89f67462D64b2",
+    "transactionIndex": 10,
+    "gasUsed": "371212",
+    "logsBloom": "0x00000000000000000000000020000000000000000000000000840000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000001008000000000000000000000000000000000020000000000000000000800000000000000008000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x8e5dc21379e9b6143c856ef95bd096402506380a1f6f7e46e9eaec4bb79a1e2e",
+    "transactionHash": "0x0d72316228cf8279d37f7c98d7de0ff91986dc667a8580fc71069f823175f122",
+    "logs": [
+      {
+        "transactionIndex": 10,
+        "blockNumber": 6689487,
+        "transactionHash": "0x0d72316228cf8279d37f7c98d7de0ff91986dc667a8580fc71069f823175f122",
+        "address": "0xC23Fc24C55DB916AE0D6E3f533E89f67462D64b2",
+        "topics": [
+          "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000f9f0a86fea7f5698e4fa03a8506878c24f8700af"
+        ],
+        "data": "0x",
+        "logIndex": 0,
+        "blockHash": "0x8e5dc21379e9b6143c856ef95bd096402506380a1f6f7e46e9eaec4bb79a1e2e"
+      }
+    ],
+    "blockNumber": 6689487,
+    "cumulativeGasUsed": "7922384",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0xef7b1a03e0897c33b63159e38d779e3970c0e2fc",
+    "0xF9f0A86FEa7f5698e4fA03A8506878c24F8700Af"
+  ],
+  "numDeployments": 2,
+  "solcInputHash": "d77170b3448dc411ee803c1610890f35",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.22+commit.4fc1097e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract IMintableBurnableV2\",\"name\":\"_token\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"OwnableInvalidOwner\",\"type\":\"error\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"OwnableUnauthorizedAccount\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"burn\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"operators\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_operator\",\"type\":\"address\"}],\"name\":\"removeOperator\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_operator\",\"type\":\"address\"}],\"name\":\"setOperator\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"token\",\"outputs\":[{\"internalType\":\"contract IMintableBurnableV2\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"errors\":{\"OwnableInvalidOwner(address)\":[{\"details\":\"The owner is not a valid owner account. (eg. `address(0)`)\"}],\"OwnableUnauthorizedAccount(address)\":[{\"details\":\"The caller account is not authorized to perform an operation.\"}]},\"kind\":\"dev\",\"methods\":{\"burn(address,uint256)\":{\"params\":{\"_amount\":\"Amount of tokens to be burned\",\"_from\":\"Address from which tokens will be burned\"},\"returns\":{\"_0\":\"Indicates whether the operation was successful\"}},\"mint(address,uint256)\":{\"params\":{\"_amount\":\"Amount of tokens to be minted\",\"_to\":\"Address to which tokens will be minted\"},\"returns\":{\"_0\":\"Indicates whether the operation was successful\"}},\"owner()\":{\"details\":\"Returns the address of the current owner.\"},\"renounceOwnership()\":{\"details\":\"Leaves the contract without owner. It will not be possible to call `onlyOwner` functions. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner.\"},\"transferOwnership(address)\":{\"details\":\"Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"burn(address,uint256)\":{\"notice\":\"Burns tokens from a specified account\"},\"mint(address,uint256)\":{\"notice\":\"Mints tokens to a specified account\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/ElevatedMinterBurner.sol\":\"ElevatedMinterBurner\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@layerzerolabs/oft-evm/contracts/interfaces/IMintableBurnable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.22;\\n\\n/// @title Interface for mintable and burnable tokens\\ninterface IMintableBurnable {\\n    \\n    /**\\n     * @notice Burns tokens from a specified account\\n     * @param _from Address from which tokens will be burned\\n     * @param _amount Amount of tokens to be burned\\n     * @return success Indicates whether the operation was successful\\n     */\\n    function burn(address _from, uint256 _amount) external returns (bool success);\\n\\n    /**\\n     * @notice Mints tokens to a specified account\\n     * @param _to Address to which tokens will be minted\\n     * @param _amount Amount of tokens to be minted\\n     * @return success Indicates whether the operation was successful\\n     */\\n    function mint(address _to, uint256 _amount) external returns (bool success);\\n}\",\"keccak256\":\"0x1e3a944a06780a2b6f050044d3a074b89df756b42e26e7c45a56b7d83c32523b\",\"license\":\"MIT\"},\"@openzeppelin/contracts/access/Ownable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v5.0.0) (access/Ownable.sol)\\n\\npragma solidity ^0.8.20;\\n\\nimport {Context} from \\\"../utils/Context.sol\\\";\\n\\n/**\\n * @dev Contract module which provides a basic access control mechanism, where\\n * there is an account (an owner) that can be granted exclusive access to\\n * specific functions.\\n *\\n * The initial owner is set to the address provided by the deployer. This can\\n * later be changed with {transferOwnership}.\\n *\\n * This module is used through inheritance. It will make available the modifier\\n * `onlyOwner`, which can be applied to your functions to restrict their use to\\n * the owner.\\n */\\nabstract contract Ownable is Context {\\n    address private _owner;\\n\\n    /**\\n     * @dev The caller account is not authorized to perform an operation.\\n     */\\n    error OwnableUnauthorizedAccount(address account);\\n\\n    /**\\n     * @dev The owner is not a valid owner account. (eg. `address(0)`)\\n     */\\n    error OwnableInvalidOwner(address owner);\\n\\n    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);\\n\\n    /**\\n     * @dev Initializes the contract setting the address provided by the deployer as the initial owner.\\n     */\\n    constructor(address initialOwner) {\\n        if (initialOwner == address(0)) {\\n            revert OwnableInvalidOwner(address(0));\\n        }\\n        _transferOwnership(initialOwner);\\n    }\\n\\n    /**\\n     * @dev Throws if called by any account other than the owner.\\n     */\\n    modifier onlyOwner() {\\n        _checkOwner();\\n        _;\\n    }\\n\\n    /**\\n     * @dev Returns the address of the current owner.\\n     */\\n    function owner() public view virtual returns (address) {\\n        return _owner;\\n    }\\n\\n    /**\\n     * @dev Throws if the sender is not the owner.\\n     */\\n    function _checkOwner() internal view virtual {\\n        if (owner() != _msgSender()) {\\n            revert OwnableUnauthorizedAccount(_msgSender());\\n        }\\n    }\\n\\n    /**\\n     * @dev Leaves the contract without owner. It will not be possible to call\\n     * `onlyOwner` functions. Can only be called by the current owner.\\n     *\\n     * NOTE: Renouncing ownership will leave the contract without an owner,\\n     * thereby disabling any functionality that is only available to the owner.\\n     */\\n    function renounceOwnership() public virtual onlyOwner {\\n        _transferOwnership(address(0));\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Can only be called by the current owner.\\n     */\\n    function transferOwnership(address newOwner) public virtual onlyOwner {\\n        if (newOwner == address(0)) {\\n            revert OwnableInvalidOwner(address(0));\\n        }\\n        _transferOwnership(newOwner);\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Internal function without access restriction.\\n     */\\n    function _transferOwnership(address newOwner) internal virtual {\\n        address oldOwner = _owner;\\n        _owner = newOwner;\\n        emit OwnershipTransferred(oldOwner, newOwner);\\n    }\\n}\\n\",\"keccak256\":\"0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/Context.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v5.0.1) (utils/Context.sol)\\n\\npragma solidity ^0.8.20;\\n\\n/**\\n * @dev Provides information about the current execution context, including the\\n * sender of the transaction and its data. While these are generally available\\n * via msg.sender and msg.data, they should not be accessed in such a direct\\n * manner, since when dealing with meta-transactions the account sending and\\n * paying for execution may not be the actual sender (as far as an application\\n * is concerned).\\n *\\n * This contract is only required for intermediate, library-like contracts.\\n */\\nabstract contract Context {\\n    function _msgSender() internal view virtual returns (address) {\\n        return msg.sender;\\n    }\\n\\n    function _msgData() internal view virtual returns (bytes calldata) {\\n        return msg.data;\\n    }\\n\\n    function _contextSuffixLength() internal view virtual returns (uint256) {\\n        return 0;\\n    }\\n}\\n\",\"keccak256\":\"0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2\",\"license\":\"MIT\"},\"contracts/ElevatedMinterBurner.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.22;\\n\\nimport { Ownable } from \\\"@openzeppelin/contracts/access/Ownable.sol\\\";\\nimport { IMintableBurnable } from \\\"@layerzerolabs/oft-evm/contracts/interfaces/IMintableBurnable.sol\\\";\\nimport { IMintableBurnableV2 } from \\\"./IMintableBurnableV2.sol\\\";\\n\\ncontract ElevatedMinterBurner is IMintableBurnable, Ownable {\\n    IMintableBurnableV2 public immutable token;\\n    mapping(address => bool) public operators;\\n    bool private operatorSetCalled;\\n\\n    modifier onlyOperators() {\\n        require(operators[msg.sender], \\\"Not authorized\\\");\\n        _;\\n    }\\n\\n    constructor(IMintableBurnableV2 _token, address _owner) Ownable(_owner) {\\n        token = _token;\\n    }\\n\\n    function setOperator(address _operator) external onlyOwner {\\n        require(!operatorSetCalled, \\\"setOperator can only be called once\\\");\\n        operators[_operator] = true;\\n        operatorSetCalled = true;\\n    }\\n\\n    function removeOperator(address _operator) external onlyOwner {\\n        operators[_operator] = false;\\n    }\\n\\n    function burn(address _from, uint256 _amount) external override onlyOperators returns (bool) {\\n        token.burn(_from, _amount);\\n        return true;\\n    }\\n\\n    function mint(address _to, uint256 _amount) external override onlyOperators returns (bool) {\\n        token.mint(_to, _amount);\\n        return true;\\n    }\\n}\",\"keccak256\":\"0xc4ea6e0b06a9aa7df80f1f1bafffa63865ff18223381c9f5c185af0065c07488\",\"license\":\"UNLICENSED\"},\"contracts/IMintableBurnableV2.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.22;\\n\\n/// @title Interface for mintable and burnable tokens that don't return bool\\ninterface IMintableBurnableV2 {\\n    /**\\n     * @notice Burns tokens from a specified account\\n     * @param _from Address from which tokens will be burned\\n     * @param _amount Amount of tokens to be burned\\n     */\\n    function burn(address _from, uint256 _amount) external;\\n\\n    /**\\n     * @notice Mints tokens to a specified account\\n     * @param _to Address to which tokens will be minted\\n     * @param _amount Amount of tokens to be minted\\n     */\\n    function mint(address _to, uint256 _amount) external;\\n}\\n\\n\",\"keccak256\":\"0x8f1c4ed12a63a9554d05f579266d021b8aa2ac7c8433b97ac1f304b72721b790\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x60a060405234801561001057600080fd5b5060405161068238038061068283398101604081905261002f916100e2565b806001600160a01b03811661005e57604051631e4fbdf760e01b81526000600482015260240160405180910390fd5b6100678161007a565b50506001600160a01b031660805261011c565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b6001600160a01b03811681146100df57600080fd5b50565b600080604083850312156100f557600080fd5b8251610100816100ca565b6020840151909250610111816100ca565b809150509250929050565b60805161053d610145600039600081816101630152818161020001526102f0015261053d6000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c80639dc29fac116100665780639dc29fac14610112578063ac8a584a14610125578063b3ab15fb14610138578063f2fde38b1461014b578063fc0c546a1461015e57600080fd5b806313e7c9d81461009857806340c10f19146100d0578063715018a6146100e35780638da5cb5b146100ed575b600080fd5b6100bb6100a63660046104bb565b60016020526000908152604090205460ff1681565b60405190151581526020015b60405180910390f35b6100bb6100de3660046104dd565b610185565b6100eb610266565b005b6000546001600160a01b03165b6040516001600160a01b0390911681526020016100c7565b6100bb6101203660046104dd565b61027a565b6100eb6101333660046104bb565b61031f565b6100eb6101463660046104bb565b610348565b6100eb6101593660046104bb565b6103e4565b6100fa7f000000000000000000000000000000000000000000000000000000000000000081565b3360009081526001602052604081205460ff166101da5760405162461bcd60e51b815260206004820152600e60248201526d139bdd08185d5d1a1bdc9a5e995960921b60448201526064015b60405180910390fd5b6040516340c10f1960e01b81526001600160a01b038481166004830152602482018490527f000000000000000000000000000000000000000000000000000000000000000016906340c10f19906044015b600060405180830381600087803b15801561024557600080fd5b505af1158015610259573d6000803e3d6000fd5b5060019695505050505050565b61026e610422565b610278600061044f565b565b3360009081526001602052604081205460ff166102ca5760405162461bcd60e51b815260206004820152600e60248201526d139bdd08185d5d1a1bdc9a5e995960921b60448201526064016101d1565b604051632770a7eb60e21b81526001600160a01b038481166004830152602482018490527f00000000000000000000000000000000000000000000000000000000000000001690639dc29fac9060440161022b565b610327610422565b6001600160a01b03166000908152600160205260409020805460ff19169055565b610350610422565b60025460ff16156103af5760405162461bcd60e51b815260206004820152602360248201527f7365744f70657261746f722063616e206f6e6c792062652063616c6c6564206f6044820152626e636560e81b60648201526084016101d1565b6001600160a01b03166000908152600160208190526040909120805460ff199081168317909155600280549091169091179055565b6103ec610422565b6001600160a01b03811661041657604051631e4fbdf760e01b8152600060048201526024016101d1565b61041f8161044f565b50565b6000546001600160a01b031633146102785760405163118cdaa760e01b81523360048201526024016101d1565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b80356001600160a01b03811681146104b657600080fd5b919050565b6000602082840312156104cd57600080fd5b6104d68261049f565b9392505050565b600080604083850312156104f057600080fd5b6104f98361049f565b94602093909301359350505056fea2646970667358221220e8c7452ade0b52cf91da692858203cfe643b970ca02f330cf8c2a8d45babec1d64736f6c63430008160033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100935760003560e01c80639dc29fac116100665780639dc29fac14610112578063ac8a584a14610125578063b3ab15fb14610138578063f2fde38b1461014b578063fc0c546a1461015e57600080fd5b806313e7c9d81461009857806340c10f19146100d0578063715018a6146100e35780638da5cb5b146100ed575b600080fd5b6100bb6100a63660046104bb565b60016020526000908152604090205460ff1681565b60405190151581526020015b60405180910390f35b6100bb6100de3660046104dd565b610185565b6100eb610266565b005b6000546001600160a01b03165b6040516001600160a01b0390911681526020016100c7565b6100bb6101203660046104dd565b61027a565b6100eb6101333660046104bb565b61031f565b6100eb6101463660046104bb565b610348565b6100eb6101593660046104bb565b6103e4565b6100fa7f000000000000000000000000000000000000000000000000000000000000000081565b3360009081526001602052604081205460ff166101da5760405162461bcd60e51b815260206004820152600e60248201526d139bdd08185d5d1a1bdc9a5e995960921b60448201526064015b60405180910390fd5b6040516340c10f1960e01b81526001600160a01b038481166004830152602482018490527f000000000000000000000000000000000000000000000000000000000000000016906340c10f19906044015b600060405180830381600087803b15801561024557600080fd5b505af1158015610259573d6000803e3d6000fd5b5060019695505050505050565b61026e610422565b610278600061044f565b565b3360009081526001602052604081205460ff166102ca5760405162461bcd60e51b815260206004820152600e60248201526d139bdd08185d5d1a1bdc9a5e995960921b60448201526064016101d1565b604051632770a7eb60e21b81526001600160a01b038481166004830152602482018490527f00000000000000000000000000000000000000000000000000000000000000001690639dc29fac9060440161022b565b610327610422565b6001600160a01b03166000908152600160205260409020805460ff19169055565b610350610422565b60025460ff16156103af5760405162461bcd60e51b815260206004820152602360248201527f7365744f70657261746f722063616e206f6e6c792062652063616c6c6564206f6044820152626e636560e81b60648201526084016101d1565b6001600160a01b03166000908152600160208190526040909120805460ff199081168317909155600280549091169091179055565b6103ec610422565b6001600160a01b03811661041657604051631e4fbdf760e01b8152600060048201526024016101d1565b61041f8161044f565b50565b6000546001600160a01b031633146102785760405163118cdaa760e01b81523360048201526024016101d1565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b80356001600160a01b03811681146104b657600080fd5b919050565b6000602082840312156104cd57600080fd5b6104d68261049f565b9392505050565b600080604083850312156104f057600080fd5b6104f98361049f565b94602093909301359350505056fea2646970667358221220e8c7452ade0b52cf91da692858203cfe643b970ca02f330cf8c2a8d45babec1d64736f6c63430008160033",
+  "devdoc": {
+    "errors": {
+      "OwnableInvalidOwner(address)": [
+        {
+          "details": "The owner is not a valid owner account. (eg. `address(0)`)"
+        }
+      ],
+      "OwnableUnauthorizedAccount(address)": [
+        {
+          "details": "The caller account is not authorized to perform an operation."
+        }
+      ]
+    },
+    "kind": "dev",
+    "methods": {
+      "burn(address,uint256)": {
+        "params": {
+          "_amount": "Amount of tokens to be burned",
+          "_from": "Address from which tokens will be burned"
+        },
+        "returns": {
+          "_0": "Indicates whether the operation was successful"
+        }
+      },
+      "mint(address,uint256)": {
+        "params": {
+          "_amount": "Amount of tokens to be minted",
+          "_to": "Address to which tokens will be minted"
+        },
+        "returns": {
+          "_0": "Indicates whether the operation was successful"
+        }
+      },
+      "owner()": {
+        "details": "Returns the address of the current owner."
+      },
+      "renounceOwnership()": {
+        "details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner."
+      },
+      "transferOwnership(address)": {
+        "details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "burn(address,uint256)": {
+        "notice": "Burns tokens from a specified account"
+      },
+      "mint(address,uint256)": {
+        "notice": "Mints tokens to a specified account"
+      }
+    },
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 4162,
+        "contract": "contracts/ElevatedMinterBurner.sol:ElevatedMinterBurner",
+        "label": "_owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 5672,
+        "contract": "contracts/ElevatedMinterBurner.sol:ElevatedMinterBurner",
+        "label": "operators",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_mapping(t_address,t_bool)"
+      },
+      {
+        "astId": 5674,
+        "contract": "contracts/ElevatedMinterBurner.sol:ElevatedMinterBurner",
+        "label": "operatorSetCalled",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_bool"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_mapping(t_address,t_bool)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => bool)",
+        "numberOfBytes": "32",
+        "value": "t_bool"
+      }
+    }
+  }
+}
